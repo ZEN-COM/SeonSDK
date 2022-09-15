@@ -20,6 +20,8 @@ let package = Package(
         // Targets can depend on other targets in this package, and on products in packages this package depends on.
         .binaryTarget(
             name: "SeonSDK",
-            url: "https://cdn.seon.io/sdk/ios/SeonSDK/4.0.0/SeonSDK-4.0.0-xcfw.zip"),
+            url: "https://cdn.seon.io/sdk/ios/SeonSDK/4.0.0/SeonSDK-4.0.0-xcfw.zip",
+            checksum: "ff4b761c493f936f3ceadfaef459bfbbe7075db69a616472cfe1fd842a5215e0"
+        ),
     ]
 )
